@@ -11,6 +11,10 @@
       <p><%= @merkle_root %></p>
       Amount of Proofs in this Batch:
       <p><%= @current_batch.amount_of_proofs %></p>
+      Cost per Proof:
+      <p>
+        <%= @current_batch.cost_per_proof %> wei
+      </p>
       Submission Block Number:
       <.a
         target="_blank"
